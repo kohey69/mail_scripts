@@ -11,7 +11,6 @@ def create_mail(mail_template)
 
   # 入力したテンプレートから[]で囲まれた文字列を抽出する
   matched_texts = get_chomp_from(mail_template)
-  print matched_texts
 
   new_mail_body = mail_template
 
